@@ -1,15 +1,15 @@
 import React from 'react'
 import './navbar.css'
 
-function navbar() {
+function Navbar() {
   return (
     <div className='navbar'>
-    <div>
+    <div className='logo'>
       Arctic Travels
       
     </div>
 
-    <ul>
+    <ul className='nav-links'>
       <li>About Us</li>
       <li>Support</li>
       <li>Language</li>
@@ -19,4 +19,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar
