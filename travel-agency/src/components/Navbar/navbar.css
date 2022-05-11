@@ -1,0 +1,20 @@
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1cm;
+    margin-top: 0%;
+}
+
+.navbar .nav-links{
+    display: flex;
+
+}
+
+.navbar .nav-links li{
+    margin: 8px;
+    list-style: none;
+    text-transform: capitalize;
+}

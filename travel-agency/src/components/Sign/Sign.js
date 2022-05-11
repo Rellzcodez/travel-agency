@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Support() {
+function Sign() {
   return (
     <div>
-        Support
+      Sign
 
     </div>
   )
 }
 
-export default Support
+export default Sign
